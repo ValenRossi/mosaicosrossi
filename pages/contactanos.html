@@ -9,9 +9,12 @@
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
     <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--CDN BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 
 </head>
@@ -24,76 +27,121 @@
             </a>
         </div>
 
-        <nav>
-            <ul class="navegacion">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./acerca_de_nosotros.html">Acerca de nosotros</a></li>
-                <li><a href="./contactanos.html">Contactanos</a></li>
-                <li><a href="./muestrario.html">Muestrario</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="galeria">
-        <img src="../assets/fondoarriba.png" alt="">
-    </div>
-
-    <form class="largo_form">
-        <fieldset>
-            <legend>Contactanos!</legend>
-            <div>
-                <label for="NOMBRE">Nombre</label>
-            </div>
-            <div>
-                <input type="text">
-            </div>
-            <div>
-                <label for="APELLIDO">Apellido</label>
-            </div>
-            <div>
-                <input type="text">
-            </div>
-            <div>Acepta términos y condiciones<div>
-                    <input type="checkbox" name="acepta" value="1" />
+        <!--BOOTSTRAP NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./acerca_de_nosotros.html">Acerca de nosotros
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./muestrario.html">Muestrario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
                 </div>
-                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-                <label for="mensaje">Escribe tu consulta!</label>
-    </form>
-
-
-    <div>
-        <input type="submit" value="enviar">
-        <input type="reset" value="Limpiar Formulario">
-    </div>
-    </fieldset>
-
-
-
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8720091325226!2d-58.55877068477087!3d-34.58210498046517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9db06396c83%3A0xe079ece900525ba4!2sF%C3%A1brica%20de%20Mosaicos%20Rossi%20Hnos.!5e0!3m2!1ses-419!2sar!4v1672089145071!5m2!1ses-419!2sar"
-        width="1860" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-
-    <footer class="text-center">
-        <div class="redes_sociales">
-            <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i
-                    class="fa-brands fa-whatsapp fa-4x"></i></a>
-            <a href="https://www.instagram.com/mosaicosrossi/" target="_blank" rel="noopener noreferrer"><i
-                    class="fa-brands fa-instagram fa-4x"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100084935204787" target="_blank"
-                rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-4x"></i></i></a>
+    </header>
+    <main>
+        <div class="galeria">
+            <h1>Consulte por la compra de nuestros productos (011) 5752-5836 | 5833</h1>
         </div>
-        <p>
-            2022 © COPYRIGHT MOSAICOS ROSSI HNOS S.R.L | Email: mosaicosrossi@yahoo.com.ar
-        </p>
-    </footer>
 
-    <!--CDN BOOTSTRAP JV-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <section class="d-flex justify-content-center align-items-center">
+            <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4">
+                <div class="mb-4 d-flex justify-content-start align-items-center">
+
+                    <h4> <i class="bi bi-chat-left-quote"></i> &nbsp; Contacto</h4>
+                </div>
+                <div class="mb-1">
+                    <form id="contacto">
+                        <div class="mb-4 d-flex justify-content-between">
+                            <div>
+                                <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre"
+                                    placeholder="ej: Gabriel" required>
+                                <div class="nombre text-danger "></div>
+                            </div>
+                            <div>
+                                <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                                <input type="text" class="form-control" name="apellido" id="apellido"
+                                    placeholder="ej: Pacheco" required>
+                                <div class="apellido text-danger"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
+                            <input type="email" class="form-control" name="correo" id="correo"
+                                placeholder="ej: gpmcheco@mail.com" required>
+                            <div class="correo text-danger"></div>
+
+                        </div>
+                        <div class="mb-4">
+                            <label for="sexo"><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
+                            <input type="radio" class="form-check-input" name="sexo" value="masculino"> Masculino
+                            <input type="radio" class="form-check-input" name="sexo" value="femenino"> Femenino
+                            <div class="sexo text-danger"></div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" class="form-control"
+                                placeholder="ej: hola"></textarea>
+                            <div class="mensaje text-danger"></div>
+                        </div>
+
+                        <div class="mb-2">
+                            <button id="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                                <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8720091325226!2d-58.55877068477087!3d-34.58210498046517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9db06396c83%3A0xe079ece900525ba4!2sF%C3%A1brica%20de%20Mosaicos%20Rossi%20Hnos.!5e0!3m2!1ses-419!2sar!4v1672089145071!5m2!1ses-419!2sar"
+            width="1860" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+        <footer class="text-center">
+            <div class="redes_sociales">
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-whatsapp fa-4x"></i></a>
+                <a href="https://www.instagram.com/mosaicosrossi/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-instagram fa-4x"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100084935204787" target="_blank"
+                    rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-4x"></i></i></a>
+            </div>
+            <p>
+                2022 © COPYRIGHT MOSAICOS ROSSI HNOS S.R.L | Email: mosaicosrossi@yahoo.com.ar
+            </p>
+        </footer>
+
+        <!--CDN BOOTSTRAP JV-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
 </body>
+</main>
 
 </html>
