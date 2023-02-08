@@ -1,18 +1,6 @@
-main {
-    background-color: $background-color_1;
-    color: $color_1;
-}
+$color_1: black;
+$color_2: white;
+$background-color_1: #74726F;
+$background-color_2: rgb(0, 0, 0);
+$background-color_3: #212529;
 
-body {
-    background-color: $background-color_1;
-}
-
-footer {
-    background-color: $background-color_2;
-    color: $color_2;
-}
-
-header {
-    display: flex;
-    background-color: $background-color_2;
-}

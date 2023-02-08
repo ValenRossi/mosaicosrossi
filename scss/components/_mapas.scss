@@ -1,0 +1,12 @@
+$redes: (
+    facebook: #3a5795,
+    whatsapp: #00bb2d,
+    instagram: #3f729b,
+    tam-fuente: 3rem
+);
+
+@each $red_social, $color_de_la_red_social in $redes {
+    .btn--#{$red_social} {
+        background-color: $color_de_la_red_social;
+    }
+}
