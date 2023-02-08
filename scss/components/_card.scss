@@ -1,0 +1,12 @@
+.contenedor {
+    display: flex;
+    margin-right: 100px;
+}
+
+.contenedor_logo {
+    background-color: $background-color_3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
