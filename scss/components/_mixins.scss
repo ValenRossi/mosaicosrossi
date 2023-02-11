@@ -1,12 +1,12 @@
 @mixin ancho_y_alto($width, $height) {
-    height: $height;
-    width: $width;
- }
+      width: $width;
+      height: $height;
+}
 
- .box {
-    @include ancho_y_alto (50%, 10vh);
- }
- 
- .box2{
-    @include ancho_y_alto(30%,auto)
- }
+.box {
+   @include ancho_y_alto (50%, 10vh);
+}
+
+.box2{
+   @include ancho_y_alto(30%,auto)
+}

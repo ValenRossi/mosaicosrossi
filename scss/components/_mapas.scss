@@ -2,11 +2,21 @@ $redes: (
     facebook: #3a5795,
     whatsapp: #00bb2d,
     instagram: #3f729b,
-    tam-fuente: 3rem
+    tam-fuente: 1rem
+
 );
 
-@each $red_social, $color_de_la_red_social in $redes {
-    .btn--#{$red_social} {
-        background-color: $color_de_la_red_social;
+    .btn--facebook{
+    color: map-get($redes , facebook );
+    font-size: map-get($redes , tam-fuente);    
     }
-}
+
+    .btn--whatsapp{
+        color: map-get($redes , whatsapp );
+        font-size: map-get($redes , tam-fuente);    
+        }
+
+    .btn--instagram{
+    color: map-get($redes , instagram );
+    font-size: map-get($redes , tam-fuente);    
+    }
